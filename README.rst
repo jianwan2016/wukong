@@ -3,17 +3,23 @@ wukong
 ======
 
 
-Add a short description here!
+General Purpose Data Pipeline to deliver the collected data to data store.
 
 
 Description
 ===========
 
-A longer description of your project goes here...
+* Pipeline model
+`Data Source` ---> `Kafka Topic` ---> `Data Sink`
 
+* Protobuf based
+Use protobuf to define the message shared between source and sink
 
-Note
-====
+* Data Source
+Any application generating structured data
 
-This project has been set up using PyScaffold 3.2.3. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+* Data Sink
+Any data store either SQL or NOSQL, currently only support postgresql
+
+* Usage scenario
+One example is WebsiteMonitor, collecting website status data and deliver it to postgresql, see `apps/website_mornitor`

@@ -1,0 +1,12 @@
+topic: "website_monitor"
+group_id: "website_monitor_group_1"
+bootstrap_servers: "kafka-21ac2155-wjfwing-5c3f.aivencloud.com:21639"
+api_version: "2.5"
+enable_auto_commit: 1
+security_protocol: "SSL"
+ssl_cafile: "kafka/ca.pem"
+ssl_certfile: "kafka/service.cert"
+ssl_keyfile: "kafka/service.key"
+auto_offset_reset: "earliest"
+client_id: "test_client_1"
+group_id: "test_group_1"

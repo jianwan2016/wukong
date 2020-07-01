@@ -1,0 +1,12 @@
+topic: "website_monitor"
+group_id: "website_monitor_group_1"
+bootstrap_servers: "bootstrap_server"
+api_version: "2.5"
+enable_auto_commit: 1
+security_protocol: "SSL"
+ssl_cafile: "ca.pem"
+ssl_certfile: "service.cert"
+ssl_keyfile: "service.key"
+auto_offset_reset: "earliest"
+client_id: "test_client_1"
+group_id: "test_group_1"

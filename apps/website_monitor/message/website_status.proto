@@ -1,0 +1,12 @@
+syntax = 'proto3';
+
+package message;
+import "protobuf/base.proto";
+
+message website_status {
+    protobuf.base base = 1;
+    string monitor_id = 2;
+    string website = 3;
+    int32 response_time = 4;
+    int32 status_code = 5;
+}

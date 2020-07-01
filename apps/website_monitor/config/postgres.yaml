@@ -1,0 +1,6 @@
+uri: "postgres://avnadmin:wvxzqxtyy5c40tab@pg-25f2fa8-wjfwing-5c3f.aivencloud.com:21637/defaultdb?sslmode=require"
+database: "website_monitor"
+user: "avnadmin"
+password: "wvxzqxtyy5c40tab"
+host: "pg-25f2fa8-wjfwing-5c3f.aivencloud.com"
+port: 21637
